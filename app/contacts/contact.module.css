@@ -1,0 +1,68 @@
+.contactPage {
+  display: flex;
+  min-height: 80vh;
+  margin: 2rem 0;
+}
+
+.contactInfo {
+  flex: 1;
+  padding: 2rem 4rem 2rem 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contactTitle {
+  font-size: 3.5rem;
+  color: #bdbdbd;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
+
+.infoTitle {
+  font-size: 3.5rem;
+  color: #333;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.companyName {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.address {
+  color: #333;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+.phone, .email {
+  font-size: 1rem;
+  color: #333;
+  margin: 0;
+}
+
+.contactButton {
+  margin-top: 3rem;
+}
+
+.contactButton a {
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

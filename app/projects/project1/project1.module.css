@@ -1,0 +1,48 @@
+.projectContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.projectHeader {
+    margin-bottom: 2rem;
+}
+
+.titleLight {
+    font-size: 3rem;
+    color: #bdbdbd;
+    font-weight: 300;
+    margin: 0;
+    line-height: 1;
+}
+
+.titleDark {
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.projectContent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mainImage {
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.projectDescription {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.textContent {
+    color: #333;
+    line-height: 1.6;
+}

@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 7rem;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 00;
+}
+
+.navLinks li {
+  margin-left: 5rem;
+}
+
+.navLinks a {
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-style: regular;
+  letter-spacing: 3px;
+  text-decoration: none;
+}
+
+.navLinks a:hover {
+  color: #007bff;
+}
